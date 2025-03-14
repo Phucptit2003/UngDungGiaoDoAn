@@ -1,29 +1,33 @@
-package tabian.com.instagramclone;
+package tabian.com.instagramclone.Search;
 
 import android.content.Context;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+import tabian.com.instagramclone.R;
 import tabian.com.instagramclone.Utils.BottomNavigationViewHelper;
 
-public class HomeActivity extends AppCompatActivity {
+/**
+ * Created by User on 5/28/2017.
+ */
 
-    private static final String TAG = "HomeActivity";
-    private static final int ACTIVITY_NUM = 0;
+public class SearchActivity extends AppCompatActivity{
+    private static final String TAG = "SearchActivity";
+    private static final int ACTIVITY_NUM = 1;
 
-    private Context mContext = HomeActivity.this;
+    private Context mContext = SearchActivity.this;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Log.d(TAG, "onCreate: starting.");
+        Log.d(TAG, "onCreate: started.");
 
         setupBottomNavigationView();
     }
