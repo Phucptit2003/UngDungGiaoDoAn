@@ -1,24 +1,28 @@
-<img class='header-img' src='https://s3.amazonaws.com/codingwithmitch-static-and-media/media/instagram-clone/images/Instagram.png' />
+SocialMediaApp là một ứng dụng mạng xã hội cho phép người dùng đăng ảnh, theo dõi bạn bè, thích và bình luận trên bài đăng – tương tự như Instagram.
 
-<h1>Android Instagram Clone Course</h1>
-<h4>A step-by-step guide to build your own Instagram Clone</h4>
-<h4>Watch it here: <a href='https://codingwithmitch.com/courses/instagram-clone/' target='_blank'>Instagram Clone Course</a></h4>
-<hr>
-<p>The course outline is still not "set in stone." I'll be building it in modules so you can have check points if you want to take a break
-and come back to it in the future. At this point I'm guessing there will be 30-50 videos.</p>
+Tính năng chính của SocialMediaApp
+✅ Đăng ký & Đăng nhập: Sử dụng Firebase Authentication để xác thực người dùng bằng email và mật khẩu.
+✅ Đăng ảnh: Người dùng có thể tải ảnh lên từ thư viện hoặc chụp ảnh mới, sau đó đăng tải lên feed.
+✅ Bảng tin (Feed): Hiển thị danh sách bài đăng từ người dùng mà bạn theo dõi.
+✅ Tương tác với bài đăng: Người dùng có thể thích (li/api/nhacungcapke), bình luận và xem danh sách những người đã thích bài đăng.
+✅ Hồ sơ cá nhân: Mỗi người dùng có một trang cá nhân hiển thị ảnh đại diện, tiểu sử và các bài đăng của họ.
+✅ Tìm kiếm người dùng: Cho phép tìm kiếm và theo dõi những người dùng khác.
 
-<p>We'll start by building almost the entire interface and then move onto the back-end.</p>
-<p>The back-end will be almost 100% Firebase as that will make it simply for the purposes of this course. </p>
-<p>If this were a real production app I would probably use:
+Ý tưởng mở rộng để nâng cấp SocialMediaApp
+🚀 Cải thiện kiến trúc ứng dụng
 
-<ul>
-<li>Firebase for user management and authentication</li>
-<li>Amazon Web Services to store images and videos</li>
-<li>A server (website) SQL database for saving all other data. Take a look 
-<a href='https://github.com/Vheissu/Open-Source-Database-Schemas/blob/master/vheissu-instagram-schema.md' target='_blank'>here</a> for an outline of what 
-the database would roughly look like if you did that. (SQLite is probably fine)</li>
-</ul>
-<p/>
+Chuyển sang MVVM + Repository Pattern để giúp code dễ bảo trì hơn.
+Sử dụng Jetpack Components như ViewModel, LiveData, Navigation để tối ưu hiệu suất.
+📷 Thêm tính năng Stories & Reels
 
-<p>That would require a <b>TON</b> more code. Setting up the server/website alone would probably be another 20 videos or so. So to keep
-things simple and condensed I will just use Firebase for everything. After all this is an Android Course, not a web development course.</p>
+Cho phép người dùng đăng stories (ảnh hoặc video ngắn có hiệu ứng).
+Thêm tính năng Reels để đăng video ngắn tương tự TikTok.
+💬 Tích hợp nhắn tin Realtime
+
+Tạo hệ thống chat riêng giữa người dùng bằng Firebase Firestore.
+Thêm tính năng gửi ảnh, voice message và video call.
+🎨 Cải thiện UI/UX
+
+Hỗ trợ Dark Mode để mang lại trải nghiệm tốt hơn.
+Sử dụng Material Design 3 để giao diện chuyên nghiệp hơn.
+🔒 Bảo mật & xác thực nâng cao
