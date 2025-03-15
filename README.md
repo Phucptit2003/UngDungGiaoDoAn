@@ -10,7 +10,7 @@ Tính năng chính của SocialMediaApp
 
 Ý tưởng mở rộng để nâng cấp SocialMediaApp
 🚀 Cải thiện kiến trúc ứng dụng
-1
+
 Chuyển sang MVVM + Repository Pattern để giúp code dễ bảo trì hơn.
 Sử dụng Jetpack Components như ViewModel, LiveData, Navigation để tối ưu hiệu suất.
 📷 Thêm tính năng Stories & Reels
