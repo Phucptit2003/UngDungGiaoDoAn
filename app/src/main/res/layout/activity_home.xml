@@ -5,20 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tabian.com.instagramclone2.Home.HomeActivity">
+    tools:context="tabian.com.instagramclone.Home.HomeActivity">
 
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/container">
-
-    </FrameLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/relLayoutParent">
+        android:layout_height="match_parent">
 
 
         <!-- top toolbar -->
